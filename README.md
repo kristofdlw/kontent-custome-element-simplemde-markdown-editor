@@ -24,4 +24,4 @@ The value is a string of Markdown text.
 
 ## Contributors
 
-Originally contributed by [@hzik](https://github.com/hzik/)
+Originally contributed by [@petrpyszko](https://github.com/petrpyszko)
