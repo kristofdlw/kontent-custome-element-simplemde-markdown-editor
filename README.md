@@ -21,3 +21,7 @@ Netlify has made this easy. If you click the deploy button below, it will guide 
 ## What is Saved?
 
 The value is a string of Markdown text.
+
+## Contributors
+
+Originally contributed by [@hzik](https://github.com/hzik/)
