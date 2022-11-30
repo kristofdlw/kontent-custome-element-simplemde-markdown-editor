@@ -65,6 +65,7 @@
         // React on window editor value changes to update the value in Kentico.
         editorInstance.codemirror.on("changes", () => {
           setValue(editorInstance.value());
+          console.log("VALUE = " + editorInstance.value())
           updateSize();
         });
       }
