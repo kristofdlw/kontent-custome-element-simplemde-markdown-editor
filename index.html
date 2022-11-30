@@ -77,7 +77,6 @@
 
       function setValue(value) {
         // Send updated value to Kentico (send null in case of the empty string => element will not meet required condition).
-        console.log(value);
         if (!isDisabled) {
           CustomElement.setValue(value || null);
         }
@@ -86,6 +85,8 @@
       function initCustomElement() {
         try {
           CustomElement.init((element, _context) => {
+            console.log(element);
+            console.log(element.value);
             // Setup with initial value and disabled state
             initializeEditor(element.value, element.disabled);
             updateSize();
